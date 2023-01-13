@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A826231A296FDAF500AA76DE /* PoseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8262319296FDAF500AA76DE /* PoseDetailView.swift */; };
 		A826231E296FE6A400AA76DE /* StudioMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826231D296FE6A400AA76DE /* StudioMapViewModel.swift */; };
+		A8262341297001C300AA76DE /* TrainingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8262340297001C300AA76DE /* TrainingListCell.swift */; };
 		A82EC81E296FC494001B7DDA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8315ACA296FA49A0013DEAF /* Persistence.swift */; };
 		A82EC820296FC5E7001B7DDA /* StudioMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82EC81F296FC5E7001B7DDA /* StudioMapView.swift */; };
 		A82EC823296FCB64001B7DDA /* TabBarAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82EC822296FCB64001B7DDA /* TabBarAccessor.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		A8262319296FDAF500AA76DE /* PoseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetailView.swift; sourceTree = "<group>"; };
 		A826231D296FE6A400AA76DE /* StudioMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioMapViewModel.swift; sourceTree = "<group>"; };
+		A8262340297001C300AA76DE /* TrainingListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingListCell.swift; sourceTree = "<group>"; };
 		A82EC81D296FB382001B7DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A82EC81F296FC5E7001B7DDA /* StudioMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioMapView.swift; sourceTree = "<group>"; };
 		A82EC822296FCB64001B7DDA /* TabBarAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAccessor.swift; sourceTree = "<group>"; };
@@ -75,12 +77,13 @@
 			path = Studio;
 			sourceTree = "<group>";
 		};
-		A8262318296FDACC00AA76DE /* Diary */ = {
+		A8262318296FDACC00AA76DE /* Training */ = {
 			isa = PBXGroup;
 			children = (
 				A8315AC3296FA4990013DEAF /* ContentView.swift */,
+				A8262340297001C300AA76DE /* TrainingListCell.swift */,
 			);
-			path = Diary;
+			path = Training;
 			sourceTree = "<group>";
 		};
 		A826231B296FE67900AA76DE /* ViewModel */ = {
@@ -143,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				A8262316296FDAB800AA76DE /* Pose */,
-				A8262318296FDACC00AA76DE /* Diary */,
+				A8262318296FDACC00AA76DE /* Training */,
 				A8262317296FDABD00AA76DE /* Studio */,
 			);
 			path = Views;
@@ -232,6 +235,7 @@
 				A8315ACE296FA49A0013DEAF /* YONA.xcdatamodeld in Sources */,
 				A82EC81E296FC494001B7DDA /* Persistence.swift in Sources */,
 				A82EC823296FCB64001B7DDA /* TabBarAccessor.swift in Sources */,
+				A8262341297001C300AA76DE /* TrainingListCell.swift in Sources */,
 				A8315AD7296FA76F0013DEAF /* StudioListView.swift in Sources */,
 				A826231E296FE6A400AA76DE /* StudioMapViewModel.swift in Sources */,
 				A8315AD5296FA5000013DEAF /* PoseListView.swift in Sources */,
